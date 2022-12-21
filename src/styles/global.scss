@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap');
+
 :root {
   --yellow: #f1ee2d;
   --blue: rgb(115, 204, 255);
@@ -25,6 +26,7 @@ body {
   height: 100%;
   background: var(--background);
   color: var(--text-color);
+  cursor: url("https://i.imgur.com/DPqpXFG.png") 16 0,auto;
 }
 * {
   margin: 0;

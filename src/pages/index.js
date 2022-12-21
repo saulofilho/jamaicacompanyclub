@@ -24,13 +24,13 @@ const IndexPage = ({
           <meta name="description" content={site.siteMetadata.description} />
         </Helmet>
         <Home />
-        <QuemSomos />
+        {/* <QuemSomos />
         <div className="trabalhos-home-index container">
           <h1>Trabalhos</h1>
           <div className="posts-list">
             {Posts}
           </div>
-        </div>
+        </div> */}
     </Layout>
   )
 }

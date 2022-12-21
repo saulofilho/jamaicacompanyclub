@@ -6,9 +6,9 @@ import 'prismjs/themes/prism-okaidia.css'
 export default ({ children }) => {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       {children}
-      <FooterWrapper />
+      {/* <FooterWrapper /> */}
     </div>
   )
 }
