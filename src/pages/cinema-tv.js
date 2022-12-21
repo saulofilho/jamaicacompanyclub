@@ -33,7 +33,7 @@ const CinemaTV = ({
               {el.frontmatter.title}
             </h2>
             <p className="cinema-italic">
-              {el.frontmatter.subtitle}
+              foo bar
             </p>
             <p className="cinema-text">
               <div
@@ -58,7 +58,6 @@ export const pageQuery = graphql`
           html
           id
           frontmatter {
-            subtitle
             title
             img
           }

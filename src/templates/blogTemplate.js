@@ -31,10 +31,7 @@ export default function Template({
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
             {post.frontmatter.vimeo ?
-              <div
-                className="vimeo-home"
-                dangerouslySetInnerHTML={{ __html: post.frontmatter.vimeo }}
-              /> : ''
+              'foobar' : ''
             }
             <div className="voltar">
               <Link to="/trabalhos">⟵ Voltar</Link>
@@ -54,7 +51,6 @@ export const pageQuery = graphql`
         date(formatString: "DD.MM.YYYY")
         title
         img
-        vimeo
       }
     }
   }
