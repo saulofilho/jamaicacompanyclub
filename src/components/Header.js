@@ -4,7 +4,6 @@ import { Menu, X } from 'react-feather'
 import 'prismjs/themes/prism-okaidia.css'
 import ThemeChanger from "./ThemeChanger"
 
-import Logo from '../../static/assets/logos/wogo-filmes-logo.png'
 import './Header.scss'
 
 const Header = () => {
@@ -19,7 +18,7 @@ const Header = () => {
         <div className="header-left">
           <div className="logo-header">
             <Link to={"/"}>
-              <img src={Logo} alt="logo blog" />
+              logo
             </Link>
           </div>
         </div>
