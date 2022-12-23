@@ -25,7 +25,7 @@ module.exports = {
         background_color: `#0d518c`,
         theme_color: `#0d518c`,
         display: `minimal-ui`,
-        icon: `static/assets/logos/jamaica.png`,
+        icon: `static/assets/logos/jamaicasite.png`,
       }
     },
     'gatsby-plugin-offline',
